@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "aws_profile" {
   type        = string
   description = ""
-  default     = "ebt-dev"
+  default     = "meuprofile"
 }
 
 variable "cidr_vpc" {
