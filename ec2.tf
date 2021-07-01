@@ -10,6 +10,6 @@ resource "aws_instance" "instance-01" {
   subnet_id         = aws_subnet.subnet_public.id
 
   tags = {
-    Name = "instance-romar-test"
+    Name = "instance-test"
   }
 }
